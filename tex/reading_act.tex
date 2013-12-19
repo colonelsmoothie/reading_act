@@ -1,0 +1,158 @@
+\documentclass[oneside, titlepage]{article}
+\usepackage{parskip}
+\begin{document}
+
+\title{A Recommended Reading List for the EL Actuary}
+\author{Colonel Smoothie}
+\date{ Version 0.0\\ 22.02.2013}
+\maketitle
+
+\section*{Preface}
+
+Hello,
+
+This list serves as a guide to help the young student navigate the world of EL actuarial work through self-study. If you've already relegated yourself to being a button-pushing donkey, content with earning \$60k per year by giving your boss the same 5 numbers (whatever the hell they are) from the 171th row of an automated workbook each quarter, then you can stop reading here. On the other hand, if you're like me, maybe you'll want to gain a deeper understanding of your assignments, and from there be able to control what kind of work you'll be getting in the future and how you'll shape your own role within the organization.
+
+However, you might find doing so to be a daunting task. Perhaps you were given poorly documented, convoluted spreadsheets that seem impossible to understand. Maybe your boss doesn't have time to answer any of your questions. Maybe your boss doesn't actually know the answers. Maybe you were promised a mentor but didn't get one\ldots
+
+And so you look online for information, but everything seems out of place. One article looks promising, but then it turns out to be too advanced for you to understand. Another article turns out to be so trivial that you've wasted your time. You then search on Amazon and find 50 books on Excel. Alas! There it is! But then again, in what order do you read them? You don't have time to read 50 books, so which ones do you choose to read and which ones do you leave behind?
+
+I've been there, and I know it can be frustrating to find the information you want and to organize your own curriculum for self study. Therefore, I've written this outline to make your lives a little easier. The following list is organized by subject, although you'll may have to skip from one subject to another depending on what you'll want to learn and what your boss wants you to learn. I've realized that just giving you a list of books doesn't tell you much about how to go about reading them, so at the end, I've provided a recommended ``reading order'' to help guide you. Anyway, here's the list - I hope this helps. If you have any questions, feel free to message me (Colonel Smoothie) on the AO.
+
+\newpage
+
+\section{Excel}
+The vast majority of you are familiar with this program. However, you'll find that the scope of using Excel within a corporate office is much larger than anything you've seen or worked with in a college course. You might get a workbook with hundreds of pages, thousands of formulas, and not know where to start or even what questions to ask. I'm not a fan of the software myself, but as of now, almost every organization uses it, and almost every actuary will need to use it.
+
+\begin{enumerate}
+\item{\bfseries Excel 2013 Bible - Walkenbach}\\
+Read this first. It's a very basic book on Excel and should be understandable assuming you know how to do basic tasks with a computer, like copying and pasting text from one window to another. The book goes over essential spreadsheet vocabulary, and has descriptions of almost every single button and function you can find while browsing the interface.
+
+\item{\bfseries Excel 2013 Power Programming - Walkenbach}\\
+Read this second. If you've read the {\itshape Excel Bible}, you can read this, although you might have to struggle just a little bit if you've never done any programming in your life, you might want to read a basic primer on loops or maybe read Brookshear's Computer Science book first.
+
+\item{\bfseries Excel \& Access Integration - Alexander, Clark}\\
+This is an intermediate-level book explaining how to integrate Excel and Access. You'll need to know a little bit of Excel, Access, VBA, and SQL before reading this book. It first covers basic integration with the interface, and then goes on to explain the basics of ADO, DAO, and how to use them with VBA and SQL.
+
+\item{\bfseries VBA and Macros: Microsoft Excel 2010 - Jelen, Syrstad}\\
+I haven't read this one yet, but a coworker recommended it to me. It's not for the complete beginner. Or so I hear.
+
+\item{\bfseries Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA, and .NET (2nd Edition) - Wallentin, Bullen, Green}\\
+I also haven't read this, but I saw a coworker reading it, and it's on my to-read list.
+\end{enumerate}
+
+\section{Access}
+Ah, another Microsoft staple product for the workplace. I have mixed feelings about this software. I like the referential integrity but I dislike the lack of extensive SQL capabilities along with its slow speed. Nevertheless, lots of actuarial departments use this one, so it'll benefit you to learn it.
+
+\begin{enumerate}
+\item{\bfseries Access 2010 -The Missing Manual - MacDonald}\\
+Good at showing you the basics of Access, although I think it's wordy and long.
+\end{enumerate}
+
+\section{SQL \& Databases}
+Now this is important. Databases are central to the running of large corporations and I think anyone who wants to move up should have a good understanding of how databases work. Reading these books will not only help you learn how to skillfully wade through data, but will also widen your understanding of information systems and appreciation of your hard-working colleagues in the IT department.
+
+\begin{enumerate}
+\item{\bfseries Learning SQL - Beaulieu}\\
+You might have to learn a little bit of SQL before you can get a deep understanding of relational databases, mainly because your boss might want you to do something before you get a chance to learn the theory. This book will go over the basics of SQL syntax and how to make simple queries to get the data you want.
+
+\item{\bfseries Modern Database Management - Hoffer, et. al.}\\
+This is a great book on relational databases. It'll teach you both how to read ER diagrams and how to design and maintain databases. It's good for getting the ``big picture" about databases.
+
+\item{\bfseries SQL Server Beginner's Guide - Petkovic}\\
+I'm currently reading this since I need to learn SQL Server. SQL Server is a very powerful database management system - it makes Access and Excel look puny in comparison. 
+
+\item{\bfseries T-SQL Fundamentals - Ben-Gan}\\
+I haven't read this yet, but I saw a coworker reading it and I plan to read it in the future. It covers the basics of T-SQL, the SQL variant used in SQL Server.
+\end{enumerate}
+
+\section{R}
+R is a great open-source language for statistical analysis. Its low cost (zero dollars) has contributed to its growing popularity within the actuarial industry, especially in predictive modeling. If you don't have a lot of money and want to learn how to use programming to solve statistics problems, this langauge is for you.
+
+\begin{enumerate}
+\item{\bfseries A Beginner's Guide to R - Zuur, et. al.}\\
+This will teach you the R syntax if you're a complete n00b. The exercises aren't difficult, so this is a good way to get started. It doesn't however, go deeply into statistical theory.
+
+\item{\bfseries Data Manipulation with R - Spector}\\
+I haven't read this one yet, but it'll teach you how to manipulate data with R. It'll be the next R book I read.
+
+\item{\bfseries Using R for Introductory Statistics - Verzani}\\
+Yeah, so you know the syntax of R, but what the hell can you do with it? This book is great for learning how to do basic statistical analysis with R, and will show you why R works well with statistics.
+\end{enumerate}
+
+\section{C++}
+Whether or not you have to use this at work depends on where you work and what you do. However, C++ seems to be essential for anyone who wants to program (learning it will help you read more books), so I've included it here.
+
+\begin{enumerate}
+\item{\bfseries C++ Primer Plus - Prata}\\
+I only got a third of the way through this book before getting a new job and having to learn something else. But from what I've read it's not hard to understand, and the exercises are doable.
+\end{enumerate}
+
+\section{Computer Science}
+It helps to have a deep understanding of how your tools work. This isn't completely essential material, but if you like computer science, here are some books I recommend.
+
+\begin{enumerate}
+\item{\bfseries Computer Science - Brookshear}\\
+This is a pretty easy read. It goes into the basics of programming and mentions some cool things, like machine learning and genetic algorithms.
+
+\item{\bfseries The Internet Book - Comer}\\
+This is a good easy read. It'll help you learn a little bit about networks.
+\end{enumerate}
+
+\section{Miscellaneous Resources}
+I don't know what category to put these in, but I found these to be very helpful or interesting.
+
+\begin{enumerate}
+\item{\bfseries www.actuarialoutpost.com}\\
+A great site, of course.
+\item{\bfseries www.stackexchange.com}\\
+A Q\&A site for lots of different subjects. You get to interact with experts and have your questions answered, for free. If you want to help others out, you can answer their questions. Includes stackoverflow and other sites.
+\item{\bfseries www.ubuntuforums.org}\\
+A forum for ubuntu users.
+\item{\bfseries The Official Ubuntu Book}\\
+I'm reading this right now, trying to learn more about Linux and Ubuntu.
+\end{enumerate}
+
+\section{Recommended Order of Readings}
+You don't have to follow this order, but some books are more advanced than others, so I hope this will help.
+
+\begin{enumerate}
+\item{Computer Science - Brookshear}
+\item{Excel 2013 Bible - Walkenbach}
+\item{Excel 2013 Power Programming - Walkenbach}
+\item{C++ Primer Plus - Prata}
+\item{LearningSQL - Beaulieu}
+\item{Access 2010 - The Missing Manual - MacDonald}
+\item{Excel \& Access Integration - Alexander, Clark}
+\item{Modern Database Management - Hoffer, et. al.}
+\item{Beginner's Guide to R - Zuur, et. al.}
+\item{Data Manipulation with R - Spector}
+\item{Using R for Introductory Statistics - Verzani}
+\item{SQL Server Beginner's Guide - Petkovic}
+\item{T-SQL Fundamentals - Ben-Gan}
+\item{VBA and Macros: Microsoft Excel 2010 - Jelen, Syrstad}
+\item{Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA, and .NET (2nd Edition) - Wallentin, Bullen, Green}
+\end{enumerate}
+
+\section{FAQ}
+\begin{enumerate}
+\item{\bfseries How long will it take me to read all these?}\\
+Many, many years. It takes a long time to get good at something. For me, it's been 2 years of work so far.
+\item{\bfseries I'm scared that I won't understand these books}\\
+Yeah, I am too. But if you don't try, you won't go anywhere. You have to use some judgement. If you read a book and you have no idea what's going on, you need to find a more basic book. If you go in the order I recommended, you should be OK for the most part. Don't give up the first moment something gets hard. If you can't understand a passage, keep going. The explanation you need might be a few pages down, or it might be several chapters down, or it might be in another book. If you've read 500 pages and didn't understand any of it, read a different book and go back to it later. If you've read 3 paragraphs and can't understand any of them, you haven't tried hard enough.
+\item{\bfseries I don't have the answers to the exercises}\\
+This isn't like high school where the teachers have all the answers. This is the real world, and it's up to you to go find them. Even the authors of these books will, from time to time, admit that they don't know the answer to something. That's OK. Attempt the problems, and if you have trouble with them, write down what you thought was hard about them and then move on. Save what you have written for future reference later on.
+\end{enumerate}
+
+\section{Questions? Suggestions?}
+If you have questions, message me, Colonel Smoothie, on the Actuarial Outpost. If you don't have an account, email me at colonelsmoothie@gmail.com. If you have criticism ("Colonel Smoothie, your guide sucks!"), feel free to message me. I'll listen.
+
+-Colonel Smoothie
+
+\section{Versions}
+\begin{enumerate}
+\item{\bfseries Version 0.0 - 22.02.2013}\\
+First Document
+\end{enumerate}
+
+\end{document}
