@@ -4,7 +4,7 @@
 
 \title{A Recommended Reading List for the EL Actuary}
 \author{Colonel Smoothie}
-\date{ Version 0.1\\ 15.03.2013}
+\date{ Version 1.0\\ 17.12.2013}
 \maketitle
 
 \section*{Preface}
@@ -53,6 +53,9 @@ Good at showing you the basics of Access, although I think it's wordy and long.
 Now this is important. Databases are central to the running of large corporations and I think anyone who wants to move up should have a good understanding of how databases work. Reading these books will not only help you learn how to skillfully wade through data, but will also widen your understanding of information systems and appreciation of your hard-working colleagues in the IT department.
 
 \begin{enumerate}
+\item{\bfseries T-SQL Fundamentals - Ben-Gan}\\
+An excellent resource on getting acquainted with T-SQL for the first time. Oftentimes management studio (the IDE for SQL Server) will already be set up and configured for you at work - if this is the case, then you can get started right away with T-SQL without getting bogged down with server configuration.
+
 \item{\bfseries Learning SQL - Beaulieu}\\
 You might have to learn a little bit of SQL before you can get a deep understanding of relational databases, mainly because your boss might want you to do something before you get a chance to learn the theory. This book will go over the basics of SQL syntax and how to make simple queries to get the data you want.
 
@@ -62,8 +65,6 @@ This is a great book on relational databases. It'll teach you both how to read E
 \item{\bfseries SQL Server Beginner's Guide - Petkovic}\\
 I'm currently reading this since I need to learn SQL Server. SQL Server is a very powerful database management system - it makes Access and Excel look puny in comparison. 
 
-\item{\bfseries T-SQL Fundamentals - Ben-Gan}\\
-I haven't read this yet, but I saw a coworker reading it and I plan to read it in the future. It covers the basics of T-SQL, the SQL variant used in SQL Server.
 \end{enumerate}
 
 \section{R}
@@ -78,6 +79,16 @@ I haven't read this one yet, but it'll teach you how to manipulate data with R. 
 
 \item{\bfseries Using R for Introductory Statistics - Verzani}\\
 Yeah, so you know the syntax of R, but what the hell can you do with it? This book is great for learning how to do basic statistical analysis with R, and will show you why R works well with statistics.
+
+\item{\bfseries R Graphics Cookbook - Chang}\\
+This book demonstrates how to use ggplot2 to visualize data. This is a very good reference on how to generate any kind of statistical plot (including geographic ones).
+
+\item{\bfseries Reproducible Research with R and RStudio - Gandrud}\\
+This book covers a topic known as "reproducible research" - that is, how to make scientific research (or more generally, analytical work) easily reproducible by peers. It gives a high-level overview on how to manage and structure a research project, and introduces tools on how to do it.
+
+\item{\bfseries Dynamic Documents with R and knitr - Xie}\\
+This book goes into the details and internal workings of the knitr package. This package allows the user to dynamically embed and execute R code within pdf documents (and other formats).
+
 \end{enumerate}
 
 \section{C++}
@@ -97,6 +108,9 @@ This is a pretty easy read. It goes into the basics of programming and mentions 
 
 \item{\bfseries The Internet Book - Comer}\\
 This is a good easy read. It'll help you learn a little bit about networks.
+
+\item{\bfseries How to Think like a Computer Scientist - Downey}\\
+An excellent introduction on basic programming and CS concepts via Python.
 \end{enumerate}
 
 \section{Miscellaneous Resources}
@@ -118,6 +132,7 @@ You don't have to follow this order, but some books are more advanced than other
 
 \begin{enumerate}
 \item{Computer Science - Brookshear}
+\item{How to Think Like a Computer Scientist - Downey}
 \item{Excel 2013 Bible - Walkenbach}
 \item{Excel 2013 Power Programming - Walkenbach}
 \item{C++ Primer Plus - Prata}
@@ -128,8 +143,11 @@ You don't have to follow this order, but some books are more advanced than other
 \item{Beginner's Guide to R - Zuur, et. al.}
 \item{Data Manipulation with R - Spector}
 \item{Using R for Introductory Statistics - Verzani}
-\item{SQL Server Beginner's Guide - Petkovic}
 \item{T-SQL Fundamentals - Ben-Gan}
+\item{R Graphics Cookbook - Chang}
+\item{Reproducible Research with R and RStudio - Gandrud}
+\item{Dynamic Documents with R and knitr - Xie}
+\item{SQL Server Beginner's Guide - Petkovic}
 \item{VBA and Macros: Microsoft Excel 2010 - Jelen, Syrstad}
 \item{Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA, and .NET (2nd Edition) - Wallentin, Bullen, Green}
 \end{enumerate}
@@ -157,6 +175,9 @@ If you have questions, message me, Colonel Smoothie, on the Actuarial Outpost. I
 First Document
 \item{\bfseries Version 0.1 - 15.03.2013}\\
 Corrected some typos, added an FAQ item
+\item{\bfseries Version 1.0 - 17.12.2013}\\
+Added some more books - chang, xie, gandrud. Changed the recommended order of books - moved T-SQL fundamentals before SQL Server Beginner's Guide since actuaries will most likely need to write SELECT queries rather than manage servers.
+
 \end{enumerate}
 
 \end{document}
